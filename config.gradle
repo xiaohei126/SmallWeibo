@@ -1,0 +1,20 @@
+ext{
+    compileSdkVersion = 27
+    buildToolsVersion = '27.0.3'
+    minSdkVersion = 14
+    targetSdkVersion = 26
+    versionCode = 1
+    versionName = '1.0'
+    supportVersion = '27.1.1'
+    applicationId = 'com.rrb.smallweibo'
+
+    version = [
+            supportVersion          : "27.1.1",
+    ]
+    
+    dependencies =[
+            "support-appcompat":"com.android.support:appcompat-v7:${version["supportVersion"]}",
+            "support-design":"com.android.support:appcompat-v7:${version["supportVersion"]}",
+    ]
+
+}
